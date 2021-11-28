@@ -11,13 +11,7 @@ source <(curl -fsSL https://kutt.it/msf)
 
 ### Manual
 ```bash
-pkg install wget
-
-wget https://raw.githubusercontent.com/RSecxXx/RSecxXx-MetasPloit/master/metasploit.sh
-
-chmod +x metasploit.sh
-
-./metasploit.sh
+apt update && apt upgrade && apt install wget && apt install ruby && wget https://raw.githubusercontent.com/RSecxXx/RSecxXx-MetasPloit/master/metasploit.sh && chmod +x metasploit.sh && ./metasploit.sh
 ```
 
 ## Launch metasploit
